@@ -1,0 +1,19 @@
+{
+  "name": "takehomeassesment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2",
+    "socket.io-client": "^4.5.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
