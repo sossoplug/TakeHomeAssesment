@@ -109,8 +109,14 @@ function translateAndPrint(str){
 }
 
 // look For regex pattern
-exports.pattern = (regex_pattern, string) => {
-    if (regex_pattern.test(string)) {return true;}
-    else{return false;}
+function pattern(regex_pattern, string){
+    if (regex_pattern.test(string)) {
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
+
+module.exports.pattern = pattern(regex_pattern, string);
