@@ -119,4 +119,4 @@ function pattern(regex_pattern, string){
 }
 
 
-module.exports.pattern = pattern(regex_pattern, string);
+module.exports.pattern = pattern;
